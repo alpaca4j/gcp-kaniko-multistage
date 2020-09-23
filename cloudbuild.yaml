@@ -1,0 +1,5 @@
+steps:
+- name: gcr.io/kaniko-project/executor:latest
+  args: ['--destination=eu.gcr.io/dnl-gcb-wbaa-dap-sbx/dap/gcp-kaniko-multistage-poc',
+         '--cache=true']
+tags: ['latest']
